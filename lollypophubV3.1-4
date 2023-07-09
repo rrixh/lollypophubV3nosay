@@ -1011,9 +1011,6 @@ end)
 HomeSection:NewButton("No Lib %FO", "nolib%", function()loadstring(game:HttpGet("https://pastebin.com/raw/2Vxg0a72"))()
 end)
 
-HomeSection:NewButton("Filtering Enabled", "fe xhexker", function()print(workspace.FilteringEnabled)
-end)
-
 HomeSection:NewButton("Rejoin", "rejoins the same lobby",
 function()--rejoin lobby
 local ts = game:GetService("TeleportService")
