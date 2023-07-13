@@ -971,7 +971,7 @@ end)
 HomeSection:NewTextBox("Walkspeed","xhanges the walkspeed", function(e)game.Players.LocalPlayer.Character.Humanoid.WalkSpeed=e 
 end)
 
-HomeSection:NewTextBox("Jump Power","xhanges the jumppower (might not work idk y)", function(e)game.Players.LocalPlayer.Character.Humanoid.JumpHeight=e 
+HomeSection:NewTextBox("Jump Power","xhanges the jumppower", function(e)game.Players.LocalPlayer.Character.Humanoid.JumpHeight=e 
 end)
 
 HomeSection:NewButton("Ping Kounter", "see ping", function()
