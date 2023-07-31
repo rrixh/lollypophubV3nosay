@@ -18,7 +18,7 @@ Text = "lulaslollipop🍭",
 })
 
 local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
-local Window = Library.CreateLib("Lollypop Hub🍭 | V5","DarkTheme")
+local Window = Library.CreateLib("Lollypop Hub🍭 | V5","Sentinel")
 
 --- yum lollypop hub V5
 --  LightTheme
@@ -56,7 +56,11 @@ function()-- kokushibo notifier
 loadstring(game:HttpGet("https://pastebin.com/raw/1hnL2uEj"))()
 end)
 
-SkriptsSection:NewDropdown("Info", "🍭🍭🍭🍭🍭🍭🍭🍭", {"last update: july 31, 2023", "more new skripts added", "V5 update"}, function(currentOption)
+SkriptsSection:NewButton("KRNL (use for skriptware disappearing bug)", "KRNL exekutor for robloxSW iOS bug",
+function()loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/Chillz-s-scripts/main/KRNL%20UI%20Remake.lua"))()
+end)
+
+SkriptsSection:NewDropdown("Updates", "🍭🍭🍭🍭🍭🍭🍭🍭", {"last updated: july 31, 2023", "more new skripts added", "V5 update", "KRNL mobile exekutor added"}, function(currentOption)
     print(currentOption)
 end)
 
