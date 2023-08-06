@@ -18,7 +18,7 @@ Text = "lulaslollipop🍭",
 })
 
 local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
-local Window = Library.CreateLib("Lollypop Hub🍭 | V5.1","Serpent")
+local Window = Library.CreateLib("Lollypop Hub🍭 | V5.1","GrapeTheme")
 
 --- yum lollypop hub
 --  LightTheme
@@ -1438,7 +1438,7 @@ function()-- KAT darkyyware
 loadstring(game:HttpGet("https://raw.githubusercontent.com/AndrewDarkyy/NOWAY/main/darkyyware.lua"))()
 end)
 
-GamesSection:NewButton("OP Darkyyware", "OP skript for KAT",
+GamesSection:NewButton("KAT Godmode", "OP skript for KAT",
 function()--KAT GODMODE
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Cesare0328/my-scripts/main/K.A.T.G.O.D.M.O.D.E.lua',true))()
 end)
@@ -1453,7 +1453,7 @@ end)
 
 local GamesSection = Games:NewSection("[Da Hood]")
 
-GamesSection:NewButton("DaHood Reborn", "dahood aimloxk", function()loadstring(game:HttpGet("https://pastebin.com/raw/iNd3xTPv"))()
+GamesSection:NewButton("DaHood Reborn Aim", "dahood aimloxk", function()loadstring(game:HttpGet("https://pastebin.com/raw/iNd3xTPv"))()
 end)
 
 GamesSection:NewButton("Da Hood GUI 1", "DA HOOD is kinda good", function()
@@ -1585,7 +1585,7 @@ end)
 
 local GamesSection = Games:NewSection("Tower Of Hell")
 
-Section:NewButton("ToH Admin", "its only admin kommands", function()
+GamesSection:NewButton("ToH Admin", "its only admin kommands", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/TwomadJR/nto/main/admiin"))()
 end)
 
