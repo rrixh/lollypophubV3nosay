@@ -914,6 +914,10 @@ FunSection:NewButton("Be A Helikopter", "human xhoppa", function()-- laydown spi
 loadstring(game:HttpGet("https://pastebin.com/raw/XP8yfVbk"))()
 end)
 
+FunSection:NewButton("Krawl", "simple krawl gui", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/0Ben1/fe/main/obf_vZDX8j5ggfAf58QhdJ59BVEmF6nmZgq4Mcjt2l8wn16CiStIW2P6EkNc605qv9K4.lua.txt'))()
+end)
+
 
 
 local FunSection = Fun:NewSection("Message Fun")
