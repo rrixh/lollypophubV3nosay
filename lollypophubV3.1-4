@@ -2,8 +2,6 @@
 -- Version: 5.6
 -- toggle button added
 -- Instanxes:
-loadstring(game:HttpGet("https://pastebin.com/raw/uNb6892M",true))()
---loadstring(gameLoaded:true)--
 local CoreGui = game:GetService("StarterGui") -- Variable of StarterGui
 CoreGui:SetCore("SendNotification", {
     Title = "LOLLYPOPHUB V5.6🍭😋🍭😋",
