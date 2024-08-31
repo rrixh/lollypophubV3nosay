@@ -16,7 +16,7 @@ Text = "lulaslollipop🍭",
 	Duration = 5
 })
 
-local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/rrixh/uwuware/main/lib/kavomobile.jpg",true))();
 local Window = Library.CreateLib("Lollypop Hub🍭 | V5.6","Serpent")
 
 ---//yum lollypop hub\\--
